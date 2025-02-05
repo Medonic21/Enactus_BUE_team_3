@@ -39,6 +39,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
     });
   }
 
+//some stuff
   void _removeExpense(int index) {
     setState(() {
       _expenses.removeAt(index);
